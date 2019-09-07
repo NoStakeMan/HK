@@ -82,7 +82,6 @@ namespace HK
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            DummyData.Initialize(context, userManager, roleManager).Wait();// seed here
         }
     }
 }
