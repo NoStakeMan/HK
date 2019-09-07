@@ -3001,6 +3001,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Project/Index.cshtml",
+      "TargetPath": "Views/Project/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml",
       "TargetPath": "Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml",
       "FileKind": "mvc"

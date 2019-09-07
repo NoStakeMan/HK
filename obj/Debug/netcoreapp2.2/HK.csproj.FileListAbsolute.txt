@@ -64,3 +64,4 @@
 /Users/jackal/Projects/HK/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/Error.g.cshtml.cs
 /Users/jackal/Projects/HK/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.g.cshtml.cs
 /Users/jackal/Projects/HK/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/_ViewImports.g.cshtml.cs
+/Users/jackal/Projects/HK/obj/Debug/netcoreapp2.2/Razor/Views/Project/Index.g.cshtml.cs

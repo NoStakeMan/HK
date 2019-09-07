@@ -14,6 +14,7 @@ using HK.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using HK.EntityModels;
+using HK.Services;
 
 namespace HK
 {
@@ -46,6 +47,8 @@ namespace HK
                 .AddDefaultUI()
                 .AddDefaultTokenProviders();
 
+            services.AddScoped<IProject, ProjectService>();
+            
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
