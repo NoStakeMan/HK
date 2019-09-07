@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Identity;
 
 namespace HK.EntityModels
@@ -8,5 +9,9 @@ namespace HK.EntityModels
         public ApplicationUser() : base() { }
 
         public DateTime MemberSince { get; set; }
+
+        public virtual IEnumerable<Project> Projects { get; set; }
+        public virtual IEnumerable<Vote> Votes { get; set; }
+        
     }
 }
