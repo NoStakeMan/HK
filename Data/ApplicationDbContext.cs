@@ -12,9 +12,7 @@ namespace HK.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options) { }
 
-        public DbSet<Project> Projects { get; set; }
-        public DbSet<Requirement> Requirements { get; set; }
-        public DbSet<Reward> Rewards { get; set; }
+
 
         public DbSet<Vote> Votes { get; set; }
     }
