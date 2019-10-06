@@ -1,0 +1,38 @@
+@model HK.Models.Idea.IdeaIndexViewModel
+
+<div class="title">
+    <i class="fas fa-child"></i> all ideas...
+</div>
+
+<div class="content">
+
+    <table class="table table-hover" id="userIndexTable">
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Created Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var Idea in Model.Ideas)
+            {
+                <tr class="userRow">
+                    <td>
+                        @Idea.UserId
+                    </td>
+                    <td>
+                        @Idea.Title
+                    </td>
+                    <td>
+                        @Idea.Content
+                    </td>
+                    <td>
+                        @Idea.CreatedDate
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

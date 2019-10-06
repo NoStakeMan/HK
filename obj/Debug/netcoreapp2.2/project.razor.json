@@ -3001,11 +3001,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "Views/Project/Index.cshtml",
-      "TargetPath": "Views/Project/Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml",
       "TargetPath": "Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml",
       "FileKind": "mvc"
@@ -3058,6 +3053,11 @@
     {
       "FilePath": "Areas/Identity/Pages/Error.cshtml",
       "TargetPath": "Areas/Identity/Pages/Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Idea/Index.cshtml",
+      "TargetPath": "Views/Idea/Index.cshtml",
       "FileKind": "mvc"
     },
     {
